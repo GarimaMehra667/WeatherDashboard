@@ -1,0 +1,181 @@
+body {
+  background-color: #2b294e;
+  height: 130vh;
+  overflow-x: hidden;
+}
+
+/* ------------------------------  HEADER  ------------------------------------ */
+.header {
+  height: 100px;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.wrap {
+  width: 50vw;
+  align-items: center;
+}
+
+.search {
+
+  display: flex;
+  margin: 20px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchTerm {
+  width: 30vw;
+  border: 2px solid #ffffff;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 20px 0 0 20px;
+  background-color: #373553;
+  color: #ffffff;
+  
+}
+
+.searchButton {
+  width: 80px;
+  height: 36px;
+  border: 2px solid #ffffff;
+  background: #373553;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+/* ------------------------------  HEADER  ------------------------------------ */
+
+#displaying{
+  display: none;
+}
+
+.container{
+  display: flex;
+  margin: auto;
+  background-color: #131330;
+  color: #f5f4f6;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+
+.description{
+  margin: auto;
+  padding: 20px 0;
+}
+
+.image{
+  margin: auto;
+  
+}
+
+
+.container1{
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  width: 90vw;
+  
+}
+
+.items{
+  margin: auto;
+  padding: 20px 0;
+  width: 25vw;
+  background-color: #131330;
+  color: #f5f4f6;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+
+.search1 {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.heading {
+  font-size: 30px;
+}
+
+.weathercard {
+  background-color: #131330;
+  color: #f5f4f6;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width:1024px) {
+  .row {
+    width: 50vw;
+  }
+}
+
+
+@media (max-width:643px) {
+  .header {
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .searchTerm {
+    width: 60vw;
+  }
+}
+
+@media (max-width:600px) {
+  .row {
+    width: 60vw;
+  }
+}
+@media (max-width:582px) {
+  .row {
+    width: 75vw;
+  }
+  .container{
+    width: 90vw;
+  }
+  .container1{
+    flex-direction: column;
+  }
+
+  .items{
+    width: 70vw;
+  }
+}
+
+@media (max-width:425px) {
+  
+  .container{
+    flex-direction: column;
+  }
+  .image{
+    margin-bottom: 10px;
+  }
+  
+}
