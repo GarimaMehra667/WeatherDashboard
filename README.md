@@ -6,4 +6,13 @@ In this Project, the user enters the name of a city in the search field, then cl
 
 ![Screenshot (1159)](https://github.com/GarimaMehra667/WeatherDashboard/assets/83640576/b98288b4-a397-4a59-b9c0-7e85adafb523)
 
+# Features
+1. Location-based Weather Information
 
+2. Real-Time Data
+
+3. Multiple Locations
+
+4. User-Friendly Interface
+
+5. Responsive Design
